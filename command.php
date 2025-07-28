@@ -1,3 +1,10 @@
+laravel project create command
+
+composer create-project laravel/laravel laravel12
+
+
+
+
 1. laravel Project ip dia serve korar code
 php artisan serve --host=0.0.0.0 --port=8000
 
