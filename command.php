@@ -14,3 +14,10 @@ npm run dev -- --host=0.0.0.0 --port=5174
 
 3. php artisan command
 php -S localhost:8000 -t .
+
+
+
+4. redis queue puttyte run korar code
+
+sudo docker exec -it php-fpm php artisan queue:work
+
