@@ -21,3 +21,6 @@ php -S localhost:8000 -t .
 
 sudo docker exec -it php-fpm php artisan queue:work
 
+sudo docker logs php-fpm
+
+
